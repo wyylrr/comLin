@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: com.facebook.fresco:animated-base:1.2.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d6a694fe4318c056f902fade2612bbb8/animated-base-1.2.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1291467b4b0fee03df54795e52bc3646/jetified-animated-base-1.2.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1291467b4b0fee03df54795e52bc3646/jetified-animated-base-1.2.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1291467b4b0fee03df54795e52bc3646/jetified-animated-base-1.2.0/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.fresco/animated-base/1.2.0/b8bb31ab8388a5d387a2d825c38c23740a3df82/animated-base-1.2.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.fresco/animated-base/1.2.0/d73caa4e4aae0dacb870112f6bce7dd3bbc90916/animated-base-1.2.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

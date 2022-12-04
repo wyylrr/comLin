@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="500dp"
+    android:background="@drawable/dialog_whiter_8"
+    android:layout_height="300dp">
+
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="清单确认"
+        android:textSize="18sp"
+        android:padding="12dp"
+        android:gravity="center"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#999"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"/>
+
+    <TextView
+        android:id="@+id/tvMsg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="18dp"
+        android:layout_marginLeft="18dp"
+        android:minHeight="160dp"
+        android:layout_weight="1"
+        android:text="确定要清除全部已点菜品吗?"
+        android:textSize="16sp"
+        android:textColor="#777"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/btnCancel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="取消"
+            android:textColor="#000"
+            android:gravity="center"
+            android:padding="12dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:background="#eee"/>
+
+        <TextView
+            android:id="@+id/btnQuery"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="确定"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:padding="12dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginRight="24dp"
+            android:background="#FFC125"/>
+    </LinearLayout>
+
+</LinearLayout>
