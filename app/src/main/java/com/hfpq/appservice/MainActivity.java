@@ -49,8 +49,6 @@ public class MainActivity extends AppCompatActivity {
 
     private void StartListen() {
         HttpServer.Start(this);
-        intent = new Intent(this, HttpServer.class);
-        startService(intent);
     }
     private void Stop() {
         Context context = getApplicationContext();

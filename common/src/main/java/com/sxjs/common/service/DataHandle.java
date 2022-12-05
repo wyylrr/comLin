@@ -34,23 +34,21 @@ public class DataHandle {
 		if (!isSupportMethod()) {
             try {
                 jsonObject.put("code",500);
-                jsonObject.put("msg","请求参数异常！");
+                jsonObject.put("msg","接口异常！");
             } catch (JSONException e) {
                 e.printStackTrace();
             }
-			backData = String.valueOf(jsonObject).getBytes();
-			return backData;
-		}
-
-		try {
-			jsonObject.put("code",200);
-			jsonObject.put("msg","请求成功！");
-			jsonObject.put("data","");
-			Intent intent = new Intent("android.intent.action.http.data");
-			intent.putExtra("data",_httpHeader.getBody());
-			context.sendBroadcast(intent);
-		} catch (JSONException e) {
-			e.printStackTrace();
+		}else {
+			try {
+				jsonObject.put("code", 200);
+				jsonObject.put("msg", "请求成功！");
+				jsonObject.put("data", "");
+				Intent intent = new Intent("android.intent.action.http.data");
+				intent.putExtra("data", _httpHeader.getBody());
+				context.sendBroadcast(intent);
+			} catch (JSONException e) {
+				e.printStackTrace();
+			}
 		}
 		backData = String.valueOf(jsonObject).getBytes();
 		return backData;
@@ -79,12 +77,12 @@ public class DataHandle {
 			return false;
 		}
 		method = method.toUpperCase();
-		Log.e("wyy",_httpHeader.getUrl()+",method:"+method+"，body:"+_httpHeader.getBody());
+//		Log.e("wyy",_httpHeader.getUrl()+",method:"+method+"，body:"+body);
 
-//		if (method.equals("GET") && _httpHeader.getUrl().contains("/face/SendMessage")) {
-//			return true;
-//		}
+		if (method.equals("POST") && _httpHeader.getUrl().contains("/api/device/sendMessage")) {
+			return true;
+		}
 
-		return true;
+		return false;
 	}
 }
