@@ -69,7 +69,7 @@ dependencies {
     annotationProcessor "com.alibaba:arouter-compiler:$rootProject.arouterCompilerVersion"
     */
     implementation 'org.greenrobot:eventbus:3.0.0'
-    api 'com.gyf.immersionbar:immersionbar:3.2.2'
+    implementation 'com.geyifeng.immersionbar:immersionbar:3.2.2'
 
     //okhttp的log信息
     compile 'com.squareup.okhttp3:logging-interceptor:3.4.1'

@@ -117,5 +117,6 @@
     <orderEntry type="library" name="Gradle: com.facebook.fresco:imagepipeline:1.2.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.facebook.fresco:imagepipeline-base:1.2.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.facebook.fresco:fbcore:1.2.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.geyifeng.immersionbar:immersionbar:3.2.2@aar" level="project" />
   </component>
 </module>
