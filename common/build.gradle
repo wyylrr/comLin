@@ -56,10 +56,6 @@ dependencies {
     //design
     compile "com.android.support:design:$rootProject.supportLibraryVersion"
 
-    //leak
-    debugCompile 'com.squareup.leakcanary:leakcanary-android:1.5'
-    releaseCompile 'com.squareup.leakcanary:leakcanary-android-no-op:1.5'
-    testCompile 'com.squareup.leakcanary:leakcanary-android-no-op:1.5'
     //fresco
     compile "com.facebook.fresco:fresco:$rootProject.frescoVersion"
     // RunTimePermissionRequest
@@ -69,10 +65,11 @@ dependencies {
     compile "com.facebook.fresco:animated-gif:$rootProject.frescoVersion"
 
     // router
-    compile "com.alibaba:arouter-api:$rootProject.arouterVersion"
+   /* compile "com.alibaba:arouter-api:$rootProject.arouterVersion"
     annotationProcessor "com.alibaba:arouter-compiler:$rootProject.arouterCompilerVersion"
+    */
     implementation 'org.greenrobot:eventbus:3.0.0'
-    api 'com.gyf.immersionbar:immersionbar:2.3.3'
+    api 'com.gyf.immersionbar:immersionbar:3.2.2'
 
     //okhttp的log信息
     compile 'com.squareup.okhttp3:logging-interceptor:3.4.1'
@@ -81,6 +78,7 @@ dependencies {
     compile 'com.github.bumptech.glide:glide:3.7.0'
     implementation 'javax.annotation:javax.annotation-api:1.3.2'
     annotationProcessor("javax.annotation:javax.annotation-api:1.3.2")
+
 
 }
 

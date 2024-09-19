@@ -28,6 +28,7 @@ public class HttpServer extends Service implements Runnable {
     private static int _port = Defaults.getPort();
     private TcpListener _tcpListener = null;
     private static final int WAKE_INTERVAL_MS = 1000;
+//    private static Intent intent;
 
     public HttpServer() {
         try {

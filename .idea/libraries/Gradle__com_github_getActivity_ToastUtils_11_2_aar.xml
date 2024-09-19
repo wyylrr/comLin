@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.getActivity:ToastUtils:11.2@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/52022499a24126e4870274cd179f5cc8/jetified-ToastUtils-11.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/52022499a24126e4870274cd179f5cc8/jetified-ToastUtils-11.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/52022499a24126e4870274cd179f5cc8/jetified-ToastUtils-11.2/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.getActivity/ToastUtils/11.2/17f06de1d9efc09ab920d56e0c6f00d5ca30a3f1/ToastUtils-11.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

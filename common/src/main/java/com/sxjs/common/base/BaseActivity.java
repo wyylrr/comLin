@@ -90,6 +90,7 @@ public abstract class BaseActivity extends AppCompatActivity {
         Toast toast=new Toast(this);
         toast.setView(toast_view);
         toast.setGravity(Gravity.CENTER, 0, 0);
+        toast.setDuration(Toast.LENGTH_LONG);
         toast.show();
 //        Toast.makeText(mContext,msg,Toast.LENGTH_SHORT).show();
     }

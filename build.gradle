@@ -17,6 +17,7 @@ allprojects {
         google()
         mavenCentral()
         jcenter() // Warning: this repository is going to shut down soon
+        maven { url 'https://jitpack.io' }
     }
 }
 
@@ -44,9 +45,9 @@ ext {
     daggerVersion = '2.9'
     butterKnifeVersion = '10.1.0'
     frescoVersion = '1.2.0'
-    arouterVersion = '1.4.1'
-    arouterCompilerVersion = '1.2.2'
-    easypermissionVersion = '0.3.1'
+    arouterVersion = '1.4.0'
+    arouterCompilerVersion = '1.2.0'
+    easypermissionVersion = '3.0.0'
     autoScrollViewPagerVersion = '2.1.7'
 
     versionCode = 29

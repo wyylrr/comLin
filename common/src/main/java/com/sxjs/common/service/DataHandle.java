@@ -77,7 +77,7 @@ public class DataHandle {
 			return false;
 		}
 		method = method.toUpperCase();
-//		Log.e("wyy",_httpHeader.getUrl()+",method:"+method+"，body:"+body);
+		Log.e("wyy",_httpHeader.getUrl()+",method:"+method+"，body:"+body);
 
 		if (method.equals("POST") && _httpHeader.getUrl().contains("/api/device/sendMessage")) {
 			return true;
